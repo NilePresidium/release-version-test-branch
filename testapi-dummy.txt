@@ -1,1 +1,13 @@
 api-name: dummy api
+
+endpoint: /cars
+  get: 
+    returns list of cars
+  post:
+    adds a car to the list. Returns status 200 (ok) or 400 (failure)
+  put: 
+    updates information about a car. Returns status 200 or 400
+  delete: 
+    deletes a car by id. returns status 200 or 400
+    
+ 
