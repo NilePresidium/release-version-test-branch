@@ -1,0 +1,5 @@
+db = dummydb
+timezone = GMT+2
+timeformat = 12
+access-token = abc123
+access-secret = def456
